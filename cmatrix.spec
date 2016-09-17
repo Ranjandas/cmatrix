@@ -1,3 +1,4 @@
+%define _unpackaged_files_terminate_build 0
 %define name    cmatrix
 %define ver     1.2a
 %define rel     1
@@ -5,9 +6,9 @@
 Summary: CMatrix simulates the display from "The Matrix"
 Name: %{name}
 Version: %{ver}
-Release: %{rel}
+Release: %{rel}%{dist}
 Group: Amusements/Graphics
-Copyright: GPL
+License: GPL
 Packager: chrisa@asty.org
 URL: http://www.asty.org/cmatrix/
 Source0: http://www.asty.org/cmatrix/dist/cmatrix-%{ver}.tar.gz
